@@ -1,7 +1,7 @@
 ## QNaN.jl
 #####quiet NaNs were designed to propogate information from within numerical computations
 
-Jeffrey Sarnoff at 2015-Aug-02 03:44 UTC in USA>NY>New_York
+Jeffrey Sarnoff at 2015-Aug-02 03:44 UTC in USA﹥NY﹥New_York
 
 ####Quick Look
 
@@ -52,7 +52,7 @@ When the information carried is costly to aquire, and one of two payload is usua
 
 NaNs propagate through most computations. Consequently they do get used. ... they are needed only for computation, with temporal sequencing that can be hard to revise, harder to reverse. NaNs must conform to mathematically consistent rules that were deduced, not invented arbitrarily ...
 
-NaNs [give software the opportunity] ( especially when searching ) to follow an unexceptional path ( no need for exotic control structures ) to a point where an exceptional event can be appraised ... when additional evidence may have accrued ...  NaNs [have] a field of bits into which software can record, say, how and/or where the NaN came into existence. That [can be] extremely helpful [in] “Retrospective Diagnosis”
+NaNs [ give software the opportunity, especially when searching ] to follow an unexceptional path ( no need for exotic control structures ) to a point where an exceptional event can be appraised ... when additional evidence may have accrued ...  NaNs [have] a field of bits into which software can record, say, how and/or where the NaN came into existence. That [can be] extremely helpful [in] “Retrospective Diagnosis”
 
 -- IEEE754 Lecture Notes (highly redacted)
 
