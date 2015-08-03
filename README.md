@@ -60,6 +60,7 @@ NaNs [ give software the opportunity, especially when searching ] to follow an u
 -- IEEE754 Lecture Notes (highly redacted)
 
 References:
+
 [William Kahan's IEEE754 Lecture Notes](http://www.eecs.berkeley.edu/~wkahan/ieee754status/IEEE754.PDF)
 
 ["An Elegant Pairing Function" by Matthew Szudzik](http://szudzik.com/ElegantPairing.pdf)
