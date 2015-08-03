@@ -1,8 +1,8 @@
 ## QNaN.jl
 #####quiet NaNs were designed to propogate information from within numerical computations
-		## QNaN -- quiet NaN use
+
 <div style="text-align:right">
-**Using QNaNs to develop and propogate information**
+Jeffrey Sarnoff 2015-Aug-02
 </div>
 
 ####Quick Look
