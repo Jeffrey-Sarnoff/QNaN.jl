@@ -1,7 +1,7 @@
 ## QNaN.jl
 #####quiet NaNs were designed to propagate information from within numerical computations
 
-Jeffrey Sarnoff at 2015-Aug-02 03:44 UTC in USA﹥NY﹥New_York
+Jeffrey Sarnoff at 2015-Aug-02 03:44 UTC ﹥USA﹥NY
 
 ####Quick Look
 
@@ -61,6 +61,7 @@ NaNs [ give software the opportunity, especially when searching ] to follow an u
 
 References:
 [William Kahan's IEEE754 Lecture Notes](http://www.eecs.berkeley.edu/~wkahan/ieee754status/IEEE754.PDF)
+
 ["An Elegant Pairing Function" by Matthew Szudzik](http://szudzik.com/ElegantPairing.pdf)
 
 
