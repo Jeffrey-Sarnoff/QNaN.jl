@@ -1,5 +1,5 @@
 ## QNaN.jl
-#####quiet NaNs were designed to propogate information from within numerical computations
+#####quiet NaNs were designed to propagate information from within numerical computations
 
 Jeffrey Sarnoff at 2015-Aug-02 03:44 UTC in USA﹥NY﹥New_York
 
