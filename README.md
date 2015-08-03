@@ -6,6 +6,9 @@ Jeffrey Sarnoff at 2015-Aug-02 03:44 UTC in USA﹥NY﹥New_York
 ####Quick Look
 
 ```julia
+> Pkg.clone("https://github.com/J-Sarnoff/QNaN.jl")
+```
+```julia
 > using QNaN
 > anan = qnan(36)
 NaN
