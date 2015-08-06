@@ -31,7 +31,7 @@ for (FL, I, UI, UPos, UNeg) in [(:Float64, :Int64, :UInt64, :0x7ff8000000000000,
       @inline isjnan(x::$(FL))    = isjnan(reinterpret($(UI),x))
       @inline isqnan(x::$(FL))    = isqnan(reinterpret($(UI),x))
       @inline isqnanPos(x::$(FL)) = isqnanPos(reinterpret($(UI),x))
-      @inline isqnanNeg(x::$(FL)) = isqnanPos(reinterpret($(UI),x))
+      @inline isqnanNeg(x::$(FL)) = isqnanNeg(reinterpret($(UI),x))
 
       function qnan(si::$(I))
           u = reinterpret($(UI), abs(si))
