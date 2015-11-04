@@ -59,54 +59,22 @@ end
 @doc """
 Module QNaN
 
-  qnan(si::{Int16,Int32,Int64}) generates a quiet NaN with a payload of `si`
 
-  qnan(fp::FloatingPoint) recovers the Signed payload from `fp`
+  qnan(**si**::{Int16|32|64}) generates a QNaN with signed payload of **si**
 
-  isqnan(`fp`::FloatingPoint) true iff `fp` is any QNaN
 
-  isjnan(`fp`::FloatingPoint) true iff `fp` is a QNaN that Julia uses
+  qnan(**fp**::AbstractFloat) recovers the signed payload from **fp**
 
-  isqnanPos(`fp`::FloatingPoint) true iff isqnan(`fp`) and !signbit(`fp`)
 
-  isqnanNeg(`fp`::FloatingPoint) true iff isqnan(`fp`) and  signbit(`fp`)
+  isqnan(**fp**::AbstractFloat) true iff **fp** is any QNaN
+
+
+  isjnan(**fp**::AbstractFloat) true iff **fp** is a QNaN that Julia uses
+
+
+  isqnanPos(**fp**::AbstractFloat) true iff isqnan(**fp**) and !signbit(**fp**)
+
+
+  isqnanNeg(**fp**::AbstractFloat) true iff isqnan(**fp**) and  signbit(**fp**)
 
 """ -> QNaN
-
-@doc """
-
-qnan(`si`::{Int16|32|64}) generates a quiet NaN using `si` for the payload
-
-qnan(`fp`::FloatingPoint) recovers the signed payload from a quiet NaN `fp`
-
-""" -> qnan
-
-@doc """
-
-isqnan(`fp`::FloatingPoint) true iff `fp` is any QNaN
-
-isjnan(`fp`::FloatingPoint) true iff `fp` is one QNaN that Julia uses
-
-""" -> isqnan
-
-@doc """
-
-isjnan(`fp`::FloatingPoint) true iff `fp` is one QNaN that Julia uses
-
-isqnan(`fp`::FloatingPoint) true iff `fp` is any QNaN
-
-""" -> isjnan
-
-@doc """
-
-isqnanPos(`fp`::FloatingPoint) true iff isqnan(`fp`) and !signbit(`fp`)
-
-""" -> isqnanPos
-
-@doc """
-
-isqnanNeg(`fp`::FloatingPoint) true iff isqnan(`fp`) and  signbit(`fp`)
-
-""" -> isqnanNeg
-
-end # module
